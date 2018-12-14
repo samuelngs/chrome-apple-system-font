@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "name": "-apple-system",
+  "description": "-apple-system font on Linux",
+  "author": "samuelngs",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["font.css"]
+    }
+  ],
+  "permissions": [
+    "fontSettings"
+  ],
+  "manifest_version": 2
+}
