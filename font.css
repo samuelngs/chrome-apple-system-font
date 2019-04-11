@@ -5,6 +5,11 @@
 }
 
 @font-face {
+    font-family: 'system-ui';
+    src: local('SF Pro Text');
+}
+
+@font-face {
     font-family: 'BlinkMacSystemFont';
     src: local('SF Pro Text');
 }
